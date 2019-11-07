@@ -129,14 +129,17 @@
                     <!-- <v-col cols="auto" sm="10" xs="12">
 
                     </v-col>-->
-                    <v-col cols="auto" sm="10" xs="12" class="d-sm-none" style="background-color:rgba(18,18,16,0.8)">
+                    <v-col cols="auto" sm="10" xs="12" class="d-sm-none" style="background-color:rgba(18,18,16,0.8)" 
+                                    data-aos="zoom-out-down"
+                            data-aos-delay="300"
+                            data-aos-once="true"
+                    >
                         <v-btn
                             text
                             color="white"
                             @click="$vuetify.goTo('#skills_experience')"
                             :ripple="false"
-                            data-aos="zoom-out-down"
-                            data-aos-delay="300"
+             
                             block
                         >// Skills & Experience</v-btn>
                         <v-btn
@@ -144,8 +147,7 @@
                             color="white"
                             @click="$vuetify.goTo('#contact')"
                             :ripple="false"
-                            data-aos="zoom-out-down"
-                            data-aos-delay="600"
+
                         >// Contact me</v-btn>
                         <v-btn
                             text
@@ -153,8 +155,7 @@
                             href="/Rezume e punes Tetor 2019 v1.1.pdf"
                             target="_blank"
                             :ripple="false"
-                            data-aos="zoom-out-left"
-                            data-aos-delay="900"
+        
                         >
                             // Resume
                             <v-icon right small color="white">mdi-download-outline</v-icon>
@@ -163,14 +164,12 @@
                 </v-row>
             </v-container>
             <v-container fluid id="skills_experience">
-                <v-row justify="center" class="pt-12 mt-12">
+                <v-row justify="center" class="mt-1">
                     <v-col cols="auto" xs="10" sm="10" md="10" lg="5" xl="5">
                         <p
                             class="red--text"
                             data-aos="fade-right"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="200"
-                            data-aos-anchor-placement="center-bottom"
                         >
                             &lt;
                             <span class="white--text headline">Skills</span> &#62;
@@ -178,55 +177,41 @@
                         <p
                             class="blue--text caption pb-0 mb-0"
                             data-aos="fade-right"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="400"
-                            data-aos-anchor-placement="center-bottom"
                         >Languages & Design Patterns:</p>
                         <p
                             class="white--text"
                             data-aos="fade-in"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="450"
-                            data-aos-anchor-placement="center-bottom"
                         >PHP, JavaScript, HTML 5, CSS 3, Java, C#, MVC, RESTful API</p>
 
                         <p
                             class="blue--text caption pb-0 mb-0"
                             data-aos="fade-right"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="500"
-                            data-aos-anchor-placement="center-bottom"
                         >Framworks & Libraries:</p>
                         <p
                             class="white--text"
                             data-aos="fade-in"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="550"
-                            data-aos-anchor-placement="center-bottom"
                         >Laravel, Vue JS, Vuetify, Bootstrap, jQuery, Moment JS, Vuex, Vue Router</p>
 
                         <p
                             class="blue--text caption pb-0 mb-0"
                             data-aos="fade-right"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="600"
-                            data-aos-anchor-placement="center-bottom"
                         >Tools:</p>
                         <p
                             class="white--text"
                             data-aos="fade-in"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="650"
-                            data-aos-anchor-placement="center-bottom"
                         >GIT (GitHub, Bitbucket), JetBrains, VS Code, Artisan(Laravel) CLI, Npm JS, Photoshop, MS Office</p>
                     </v-col>
                     <v-col cols="auto" xs="10" sm="10" md="10" lg="5" xl="5">
                         <p
                             class="red--text"
                             data-aos="fade-left"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="200"
-                            data-aos-anchor-placement="center-bottom"
                         >
                             &lt;
                             <span class="white--text headline">Experience</span> &#62;
@@ -234,23 +219,17 @@
                         <p
                             class="blue--text caption pb-0 mb-0"
                             data-aos="fade-left"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="400"
-                            data-aos-anchor-placement="center-bottom"
                         >Software Development:</p>
                         <p
                             class="white--text"
                             data-aos="fade-in"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="450"
-                            data-aos-anchor-placement="center-bottom"
                         >2+ years Front-End Developer as a freelancer and many personal projects.</p>
                         <p
                             class="white--text"
                             data-aos="fade-in"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="500"
-                            data-aos-anchor-placement="center-bottom"
                         >
                             For more check my
                             <a
@@ -261,24 +240,18 @@
                         <p
                             class="white--text"
                             data-aos="fade-in"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="500"
-                            data-aos-anchor-placement="center-bottom"
                         >Currently working as PHP/Laravel developer at ATIS Kosova.</p>
 
                         <p
                             class="blue--text caption pb-0 mb-0"
                             data-aos="fade-left"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="600"
-                            data-aos-anchor-placement="center-bottom"
                         >Non Software Development:</p>
                         <p
                             class="white--text"
                             data-aos="fade-in"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="650"
-                            data-aos-anchor-placement="center-bottom"
                         >Retail: Department Manager(Operations); Stock Manager(Finances) Viva-Fresh SH.P.K</p>
                     </v-col>
                 </v-row>
@@ -287,9 +260,7 @@
                         <p
                             class="red--text"
                             data-aos="fade-right"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="200"
-                            data-aos-anchor-placement="center-bottom"
                         >
                             &lt;
                             <span class="white--text headline">Education</span> &#62;
@@ -297,16 +268,12 @@
                         <p
                             class="blue--text caption pb-0 mb-0"
                             data-aos="fade-right"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="400"
-                            data-aos-anchor-placement="center-bottom"
                         >University:</p>
                         <p
                             class="white--text"
                             data-aos="fade-in"
-                            data-aos-anchor="#skills_experience"
                             data-aos-delay="450"
-                            data-aos-anchor-placement="center-bottom"
                         >Computer Sciences - Software Design(BSC degree)/ University of Prizren "Ukshin Hoti" Kosovo</p>
                     </v-col>
                 </v-row>
@@ -418,7 +385,7 @@
                                 </v-list-item>
                                 <v-list-item two-line class="pl-0">
                                     <v-list-item-content>
-                                        <v-list-item-title>Vuetify(Vue UI LIbrary)</v-list-item-title>
+                                        <v-list-item-title>Vuetify(Vue UI Library)</v-list-item-title>
                                         <v-list-item-subtitle>
                                             <a href="https://vuetifyjs.com" target="_blank">vuetifyjs.com</a>
                                         </v-list-item-subtitle>
