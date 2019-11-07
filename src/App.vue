@@ -164,12 +164,14 @@
                 </v-row>
             </v-container>
             <v-container fluid id="skills_experience">
-                <v-row justify="center" class="mt-1">
+                <v-row justify="center" class="pt-5">
                     <v-col cols="auto" xs="10" sm="10" md="10" lg="5" xl="5">
                         <p
                             class="red--text"
                             data-aos="fade-right"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="200"
+                            data-aos-anchor-placement="center-bottom"
                         >
                             &lt;
                             <span class="white--text headline">Skills</span> &#62;
@@ -177,41 +179,55 @@
                         <p
                             class="blue--text caption pb-0 mb-0"
                             data-aos="fade-right"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="400"
+                            data-aos-anchor-placement="center-bottom"
                         >Languages & Design Patterns:</p>
                         <p
                             class="white--text"
                             data-aos="fade-in"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="450"
+                            data-aos-anchor-placement="center-bottom"
                         >PHP, JavaScript, HTML 5, CSS 3, Java, C#, MVC, RESTful API</p>
 
                         <p
                             class="blue--text caption pb-0 mb-0"
                             data-aos="fade-right"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="500"
+                            data-aos-anchor-placement="center-bottom"
                         >Framworks & Libraries:</p>
                         <p
                             class="white--text"
                             data-aos="fade-in"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="550"
+                            data-aos-anchor-placement="center-bottom"
                         >Laravel, Vue JS, Vuetify, Bootstrap, jQuery, Moment JS, Vuex, Vue Router</p>
 
                         <p
                             class="blue--text caption pb-0 mb-0"
                             data-aos="fade-right"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="600"
+                            data-aos-anchor-placement="center-bottom"
                         >Tools:</p>
                         <p
                             class="white--text"
                             data-aos="fade-in"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="650"
+                            data-aos-anchor-placement="center-bottom"
                         >GIT (GitHub, Bitbucket), JetBrains, VS Code, Artisan(Laravel) CLI, Npm JS, Photoshop, MS Office</p>
                     </v-col>
                     <v-col cols="auto" xs="10" sm="10" md="10" lg="5" xl="5">
                         <p
                             class="red--text"
                             data-aos="fade-left"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="200"
+                            data-aos-anchor-placement="center-bottom"
                         >
                             &lt;
                             <span class="white--text headline">Experience</span> &#62;
@@ -219,17 +235,23 @@
                         <p
                             class="blue--text caption pb-0 mb-0"
                             data-aos="fade-left"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="400"
+                            data-aos-anchor-placement="center-bottom"
                         >Software Development:</p>
                         <p
                             class="white--text"
                             data-aos="fade-in"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="450"
+                            data-aos-anchor-placement="center-bottom"
                         >2+ years Front-End Developer as a freelancer and many personal projects.</p>
                         <p
                             class="white--text"
                             data-aos="fade-in"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="500"
+                            data-aos-anchor-placement="center-bottom"
                         >
                             For more check my
                             <a
@@ -240,18 +262,24 @@
                         <p
                             class="white--text"
                             data-aos="fade-in"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="500"
+                            data-aos-anchor-placement="center-bottom"
                         >Currently working as PHP/Laravel developer at ATIS Kosova.</p>
 
                         <p
                             class="blue--text caption pb-0 mb-0"
                             data-aos="fade-left"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="600"
+                            data-aos-anchor-placement="center-bottom"
                         >Non Software Development:</p>
                         <p
                             class="white--text"
                             data-aos="fade-in"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="650"
+                            data-aos-anchor-placement="center-bottom"
                         >Retail: Department Manager(Operations); Stock Manager(Finances) Viva-Fresh SH.P.K</p>
                     </v-col>
                 </v-row>
@@ -260,7 +288,9 @@
                         <p
                             class="red--text"
                             data-aos="fade-right"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="200"
+                            data-aos-anchor-placement="center-bottom"
                         >
                             &lt;
                             <span class="white--text headline">Education</span> &#62;
@@ -268,12 +298,16 @@
                         <p
                             class="blue--text caption pb-0 mb-0"
                             data-aos="fade-right"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="400"
+                            data-aos-anchor-placement="center-bottom"
                         >University:</p>
                         <p
                             class="white--text"
                             data-aos="fade-in"
+                            data-aos-anchor="#skills_experience"
                             data-aos-delay="450"
+                            data-aos-anchor-placement="center-bottom"
                         >Computer Sciences - Software Design(BSC degree)/ University of Prizren "Ukshin Hoti" Kosovo</p>
                     </v-col>
                 </v-row>
