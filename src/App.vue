@@ -164,7 +164,7 @@
                 </v-row>
             </v-container>
             <v-container fluid id="skills_experience">
-                <v-row justify="center" class="pt-5">
+                <v-row justify="center" class="mt-12 pt-12">
                     <v-col cols="auto" xs="10" sm="10" md="10" lg="5" xl="5">
                         <p
                             class="red--text"
