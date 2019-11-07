@@ -7,7 +7,7 @@
 
                 <v-spacer></v-spacer>
 
-                <v-toolbar-items>
+                <v-toolbar-items >
                     <v-btn
                         text
                         color="green"
@@ -116,17 +116,20 @@
                             class="white--text"
                             data-aos="fade-down"
                             data-aos-delay="400"
+                            style="background-color:rgba(18,18,16,0.8)"
                         >Hi, I'm Klevis</h1>
                         <p
                             data-aos="fade-down"
                             data-aos-delay="500"
                             class="green--text text-uppercase font-weight-bold"
+                            style="background-color:rgba(18,18,16,0.8)"
+
                         >Obsessed with writing clean, performant code. Passionate about building things people use.</p>
                     </v-col>
                     <!-- <v-col cols="auto" sm="10" xs="12">
 
                     </v-col>-->
-                    <v-col cols="auto" sm="10" xs="12" class="d-sm-none">
+                    <v-col cols="auto" sm="10" xs="12" class="d-sm-none" style="background-color:rgba(18,18,16,0.8)">
                         <v-btn
                             text
                             color="white"
@@ -475,7 +478,7 @@ export default {
 #home {
     background-color: #121212;
     background-image: url("assets/home_background.jpg");
-    background-blend-mode: darken;
+    background-blend-mode: color-dodge;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
